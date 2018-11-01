@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="tachyons/tachyons.css"/>
     <link rel="stylesheet" href="css/main.css"/>
 
   </head>
@@ -10,7 +11,9 @@
     <div class="pa4">
 
       <div class="mh2">
-        {{ partial "logo" . }}
+        <a href="/">
+          <img src="/img/logo.svg" alt="logo" class="fr logo">
+        </a>
       </div>
 
       <div class="f1 havelock-blue tl">.Params.heading</div>
