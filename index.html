@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <div class="pa4">
+      
+      <div class="mh2">
+        {{ partial "logo" . }}
+      </div>
+
+      <div class="f1 havelock-blue tl">.Params.heading</div>
+      <p class="tl">.Params.subheading</p>
+      <div class="pv3 flex flex-column flex-row-l">
+        <div class="flex-1">
+          <div class="bg-light-gray pa6 mw5 center mb3"></div>
+          <div class="center mw5 pb3">.Params.millingdescription</div>
+        </div>
+        <div class="flex-1">
+          <div class="bg-light-gray pa6 mw5 center mb3"></div>
+          <div class="center mw5 pb3">.Params.millingdescription</div>
+        </div>
+      </div>
+      <div class="mw6 center mb5">
+        <p class="blue b">Not printing?  Learn more about the latest and greatest technology available to update your lab.</p>
+      </div>
+      <div class="flex">
+        <div class="flex-1">
+          <div class="flex flex-column">
+            <a href="/login" class="w4 mb2 center tc white link button cta-arrow">English</a>
+            <a href="/de/login" class="w4 mb2 center tc white link button cta-arrow">Deutsch</a>
+          </div>
+        </div>
+        <div class="flex-1">
+          <div class="flex flex-column">
+            <a href="/login" class="w4 mb2 center tc white link button cta-arrow">English</a>
+            <a href="/de/login" class="w4 mb2 center tc white link button cta-arrow">Deutsch</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

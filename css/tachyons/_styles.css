@@ -1,0 +1,15 @@
+/*
+
+  STYLES
+
+  Add custom styles here.
+
+*/
+summary:after,
+summary::-webkit-details-marker {
+  display: inline-block;
+}
+
+.logo {
+  max-width: 80px;
+}
